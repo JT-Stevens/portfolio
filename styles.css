@@ -1,0 +1,34 @@
+.hero-image {
+    background-image: url('./images/hero-image1.png');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    color: #1B365C;
+    font-size: 9vw;
+
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #1B365C;
+}
+
+.avatar {
+    /* width: 35%; */
+    width: fit-content;
+    /* width: fit-content; */
+}
+
+.title {
+    /* width: fit-content; */
+}
+
+.gradient-background {
+    background-image: linear-gradient(180deg, #092F50, #6EDFE8, #EEF4E3, #54BBCE);
+}
