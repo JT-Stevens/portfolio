@@ -7,28 +7,85 @@
 
 h1 {
     font-family: 'Roboto Slab', serif;
-    color: #1B365C;
-    font-size: 9vw;
+    font-size: 4rem;
 
-    overflow: hidden;
-    white-space: nowrap;
+    /* overflow: hidden;
+    white-space: nowrap; */
+    display: inline-block;
 }
 
-h2 {
+h2{
+    font-weight: 900;
+}
+
+*{
+    /* color: #1B365C; */
+}
+
+*{
     font-family: 'Roboto', sans-serif;
-    color: #1B365C;
+    color: #FF4500;
 }
+
+.nav-link, .navbar-brand {
+    color: #FF4500;
+    font-weight: 900;
+}
+
+.gery-bg{
+    background-color: #002645;
+    border-bottom: #FF4500 solid 1px;
+}
+
+.card-text{
+    color: #ccc;
+}
+
 
 .avatar {
     /* width: 35%; */
     width: fit-content;
-    /* width: fit-content; */
+    width: 6.5rem;
+    padding: 0;
 }
 
 .title {
-    /* width: fit-content; */
+    width: fit-content;
+    letter-spacing: .2rem;
 }
 
 .gradient-background {
-    background-image: linear-gradient(180deg, #092F50, #6EDFE8, #EEF4E3, #54BBCE);
+    background-image: linear-gradient(180deg, #002645, #00336c, #0047a6, #005bdf, #0066ff);
 }
+
+.hero-gradient{
+    height: 100%;
+    width: 100%;
+    /* background: rgb(0,38,69); */
+
+    background: linear-gradient(180deg, rgba(149,213,240,0) 0%, rgba(149,213,240,0.75) 75%, rgba(149,213,240,0.85) 85%, rgba(149,213,240,1) 100%);
+    border-radius: 15px;
+
+    border: #FF4500 solid 1px;
+    border-top: none;
+}
+
+@media screen {
+    
+}
+
+.card-title {
+    font-weight: 900;
+    letter-spacing: .1rem;
+    color: #002645;
+}
+
+.opacity-2 {
+    --bs-bg-opacity: .2
+}
+
+.card{
+    font-size: 1.3rem;
+    border: #FF4500 solid 1px;
+}
+
